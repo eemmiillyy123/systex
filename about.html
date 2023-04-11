@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/411fd4c8a6.js" crossorigin="anonymous"></script>
+        <title>精誠資訊</title>
+    </head>
+    <body>
+        <script>
+            function changeToProfile(){
+                location.href="about.html";
+            }
+            function changeToConcept(){
+                location.href="concept.html";
+            }
+            function changeToMilestone(){
+                location.href="milestone.html";
+            }
+        </script>
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="picture/image.jpg">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">主頁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">科技講堂</a>
+                        </li>
+                        <div class="dropdown">
+                            <a class="nav-link" href="about.html"  data-bs-toggle="dropdown">關於精誠</a>
+                            <ul class="dropdown-menu">
+                              <li><button class="dropdown-item" type="button" onclick="changeToProfile()">公司簡介</button></li>
+                              <li><button class="dropdown-item" type="button" onclick="changeToConcept()">經營理念</button></li>
+                              <li><button class="dropdown-item" type="button" onclick="changeToMilestone()">里程碑</button></li>
+                            </ul>
+                          </div>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">聯絡我們</a>
+                        </li>
+                    </div>
+                    </div>
+                 </nav>
+            </div>
+        </header>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-left">
+                        <h3>關於精誠</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="content">
+             <div class="container">
+                <h5>公司簡介</h5>
+                <p>精誠以「a Data Software Company」為公司定位，透過5A（AP、APP、API、Appliance、Algorithm）跨界軟體能力，以及上雲、用雲、管雲、護雲等4C雲服務為核心技術，同時連結生態圈夥伴力量，協助客戶在多雲混合的架構下，以虛擬化、容器化、微服務化為手段，在數位平台上提供創新價值的數據服務與商業模式，協助企業客戶邁向國際市場，創造指數型成長曲線。</p>
+                <ul >
+                    <li class="ultitle "><strong>全台最大最完整雲服務平台:</strong>隨著企業朝雲發展需求增長，且混合多雲環境已成為常態，精誠發揮異質平台整合能力，幫助企業客戶整合跨境跨域數據，更推出XI Cloud自有雲應用生態平台服務，採取SaaS訂閱模式，介接AWS、Azure、GCP三大公有雲以及Oracle、IBM企業雲，加速企業朝雲發展。</li>
+                    <br><li class="ultitle"><strong>與台灣企業共同前進國際市場:</strong>運用「軟體力」、「數據力」與「演算力」，發展自主研發的創新智慧平台與混合多雲服務，提供台商全球供應鏈的跨域服務；同時，也將加碼投資海外事業，走出台灣，初期以亞洲為發展腹地，進入東南亞以及東北亞市場，攜手新創企業、當地合作夥伴，爭取世界級的市場與客戶。</li>
+                    <br><li class="ultitle"><strong>推動綠色科技落實企業永續：</strong>於台南沙崙綠色科學城成立「精誠智慧綠能中心」，推動多項綠色科技落地應用；同時，領導整合台灣資安聯盟，以成為台灣資安監控第一為目標，並透過自行研發、維運的5大資安服務以及國際級資安解決方案，協助企業客戶落實永續發展。</li>
+                    <br><li class="ultitle"><strong>用科技行善，讓世界更美好：</strong>持續參與社會共融活動，貫徹執行ESG計畫，以符合聯合國17項永續發展目標SDGs。從為台灣培育世界級的軟體人才為初衷出發，精誠投入大量資源於科技行善計畫，包括培養優秀年輕軟體人才的「YTP少年圖靈計畫」、協助新創走向國際的「AI+ Generator Program」、鼓勵組織或個人用科技為社會帶來正向能量的「Action Intelligence for Social Good」等。<sapn></sapn></li>
+                    <br><li class="ultitle"><strong>重視員工健康推動全員運動：</strong>改裝升級健身房與籃球場，並聘請專業教練開設「體育課」；開發Heath up! APP，辦理活動獎勵員工運動，用數據管理自己身體健康；執行「精誠寶寶快樂成長基金」計畫，提供每胎最高12萬元的生育補助與高齡產婦產假加碼等福利措施。<sapn></sapn></li>
+                </ul>
+                <br>
+                <p>根據台灣權威財經媒體，2021年出刊的天下雜誌「台灣兩千大調查」，精誠蟬聯台灣軟體業第1名超過10年；2017年榮獲工業局第4屆「卓越中堅企業獎」；獲頒「2021 HR Asia亞洲最佳企業雇主獎」，是台灣得獎企業中唯一的資訊服務業。</p>
+                <p>精誠集團旗下子公司包含：泰鋒電腦、精誠軟體服務、嘉利科技、精誠科技整合、奇唯科技、康和資訊、精誠隨想、內秋應智能科技、鼎盛資科、宜誠資訊、台灣資服、智慧資安科技、達友科技以及精誠微雲；中國子公司包含精誠精詮、精誠中國、精誠瑞寶、精誠資訊（香港）、精誠勝龍。</p>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 offset-md-1">
+                        <img src="picture/image.jpg">
+                        <p class="description">精誠資訊歡迎你</p>
+                    </div>
+                    <div class="col-md-4 text-left">
+                        <h4>連結</h4>
+                        <div class="link text-left">
+                            <ul>
+                                <li><a href="#">主頁</a></li>
+                                <li><a href="#">最新消息</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">常見問題</a></li>
+                                <li><a href="#">聯絡我們</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-4 text-left">
+                        <h4>聯絡我們</h4>
+                        <p>台北市內湖區瑞光路318號<br>phone:02-7720-1888</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
